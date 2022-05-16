@@ -2,3 +2,50 @@
 @import "../sass2/extend";
 @import "../sass2/maps";
 @import "../sass2/mixins";
+
+header{
+    @include header-all (750%, 70%)
+}
+
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        display: inline-block;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .menu-nav-mensajes{
+        @include menu-all (35%, 590px)
+    }
+
+    .section-mensajes{
+        background-color: $ColorBack;
+        width: 700px;
+        height: 20px;
+
+        .p-mensajes{
+            background-color: $ColorBack;
+            width: 700px;
+            height: 20px;
+         
+        }
+        
+        .mail{
+            background-color: $ColorBack;
+            width: 700px;
+            height: 400px;
+            margin-top: 20px;
+        }
+     
+    }
+}
+
+footer{
+    @include footer-memo
+}
+

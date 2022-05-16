@@ -2,3 +2,52 @@
 @import "../sass2/extend";
 @import "../sass2/maps";
 @import "../sass2/mixins";
+
+header{
+    @include header-all (750%, 70%)
+}
+
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        display: inline-block;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .menu-nav-ayuda{
+        @include menu-all (30%, 590px)
+    }
+
+    .section-ayuda{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        
+        .ayuda{
+            background-color: $ColorBack;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                height: 100px;
+                color: $ColorMemo;
+            }
+
+            .fa-folder-open{
+                color: black;
+                &:hover{
+                    color: $ColorMemo;
+                }
+            }
+        }
+    }
+}
