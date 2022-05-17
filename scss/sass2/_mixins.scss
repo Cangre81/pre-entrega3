@@ -36,6 +36,7 @@
     
 }
 
+
 @mixin menu-all ($w-ancho , $h-alto) {
     display: block;
         width: $w-ancho;
@@ -54,9 +55,10 @@
         a:hover{
             color: $ColorMemo
         }
-        ul{
+        
             list-style:none;
-        }
+            text-decoration: none;
+    
         .ul-inicio li{
             margin-top: 10px;
             
@@ -83,4 +85,87 @@
             font-size: x-large;
             position: relative;
         }
+}
+
+@mixin caja-centrada {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+@mixin header-movil{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: $ColorBack;
+    background-size: cover;
+
+    .header-user{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .fa-folder-open{
+        color: $ColorMemo;
+        font-size:large;
+        margin-left: 50px;
+    }
+    .h4-header{
+        font-family: $LetraMemo;
+        font-size: large;
+    }
+    .usuario-header{
+        font-size: x-small;
+        position: relative;
+        left: 90%;
+        
+    }
+    .boton-salir{
+        position: relative;
+        left: 35%;
+       
+    }
+
+    
+}
+
+@mixin header-movil-flex{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: $ColorBack;
+    background-size: cover;
+
+    .header-user{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .fa-folder-open{
+        color: $ColorMemo;
+        font-size:large;
+        margin-left: 50px;
+    }
+    .h4-header{
+        font-family: $LetraMemo;
+        font-size: large;
+    }
+    .usuario-header{
+        font-size: x-small;
+        position: relative;
+        left: 60%;
+        
+    }
+    .boton-salir{
+        position: relative;
+        left: 20%;
+       
+    }
+
+    
 }
