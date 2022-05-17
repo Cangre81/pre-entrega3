@@ -214,10 +214,10 @@
       .inicio-container .inicio-header .usuario-header {
         font-size: x-small;
         position: relative;
-        left: 85%; }
+        left: 80%; }
       .inicio-container .inicio-header .boton-salir {
         position: relative;
-        left: 27%; }
+        left: 23%; }
     .inicio-container .menu-nav {
       display: flex;
       height: auto;
@@ -347,10 +347,10 @@ footer {
     header .usuario-header {
       font-size: x-small;
       position: relative;
-      left: 60%; }
+      left: 58%; }
     header .boton-salir {
       position: relative;
-      left: 20%; }
+      left: 18%; }
   .main-miperfil {
     flex-direction: column;
     height: auto; }
@@ -480,10 +480,10 @@ footer {
     header .usuario-header {
       font-size: x-small;
       position: relative;
-      left: 60%; }
+      left: 58%; }
     header .boton-salir {
       position: relative;
-      left: 20%; }
+      left: 18%; }
   .main-mensajes {
     flex-direction: column;
     height: auto; }
@@ -624,10 +624,10 @@ header {
     header .usuario-header {
       font-size: x-small;
       position: relative;
-      left: 60%; }
+      left: 58%; }
     header .boton-salir {
       position: relative;
-      left: 20%; }
+      left: 18%; }
   .main-enlinea {
     flex-direction: column;
     height: auto; }
@@ -749,10 +749,10 @@ header {
     header .usuario-header {
       font-size: x-small;
       position: relative;
-      left: 60%; }
+      left: 58%; }
     header .boton-salir {
       position: relative;
-      left: 20%; }
+      left: 18%; }
   .main-ayuda {
     flex-direction: column;
     height: auto; }
